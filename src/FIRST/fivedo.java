@@ -1,6 +1,6 @@
 package FIRST;
 import java.util.Scanner;
-public class five {
+public class fivedo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -9,11 +9,11 @@ public class five {
 
         int i = 1;
         int a = 1;
-        while (i <= n){
+        do {
             a = a * i;
             System.out.print(a + " ");
             i++;
-        }
+        }while (i <= n);
 
         scanner.close();
     }
