@@ -1,0 +1,4 @@
+aabbcc
+abba
+abcddcba
+helloo worldd
