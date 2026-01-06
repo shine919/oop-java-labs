@@ -56,14 +56,12 @@ public class taskA {
             frame.add(matrixPanel);
 
             frame.pack(); // Устанавливает размер окна, чтобы вместить панель
-            frame.setLocationRelativeTo(null); // Центрирует окно на экране
+            frame.setLocationRelativeTo(null);
             frame.setVisible(true);
         });
     }
 
-    /**
-     * Читает двумерный массив из файла.
-     */
+
     private static int[][] readMatrixFromFile(String filename) {
         try {
 
